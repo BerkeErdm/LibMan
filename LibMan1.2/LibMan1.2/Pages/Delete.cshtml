@@ -1,0 +1,71 @@
+﻿@page
+@model LibMan1._2.Pages.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>TableUserInfo</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.BookName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.BookName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.AuthorName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.AuthorName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.Publisher)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.Publisher)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.PageNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.PageNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.BookSummary)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.BookSummary)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.Categories)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.Categories)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.ReadingStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.ReadingStatus)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.Image)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.Image)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="TableBookInfo.BookId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

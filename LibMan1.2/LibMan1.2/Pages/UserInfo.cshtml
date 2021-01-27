@@ -1,0 +1,56 @@
+﻿@page
+@model LibMan1._2.Pages.UserInfoModel
+@{
+    ViewData["Title"] = "UserInfo";
+    Layout = "~/Pages/Shared/_LayoutLogin.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+
+</head>
+
+<body>
+
+    <table border="1" style="width:100%">
+        <tr>
+
+            <td bgcolor="#C0CA33" style="text-align:center;"><br><b>Sing Up</b></br></td>
+            <td style="text-align:center;"></td>
+
+        </tr>
+
+    </table><br>
+    <b>Username:</b>
+    <br><input type="text" name="UserName" width="100%"></br><br>
+
+    <b>Password:</b>
+    <br><input type="text" name="Password" width="100%"></br><br>
+
+    <b>Email:</b>
+    <br><input type="text" name="Mail" width="100%"></br><br>
+
+    <b>Name:</b>
+    <br><input type="text" name="Name" width="100%"></br><br>
+
+    <b>Surname:</b>
+    <br><input type="text" name="SurName" width="100%"></br><br>
+
+    <b>Your Birtday Date:</b>
+    <br><input type="text" name="Date" width="100%"></br><br>
+
+    <br>By creating an account you agree to our <font color="blue">Terms&Privacy </font></br><br>
+
+    <form method="post">
+        <div class="form-group">
+            <input class="btn-info" type="submit" value="Sign Up">
+        </div>
+        </form>
+
+</body>
+</html>
+

@@ -1,0 +1,80 @@
+﻿@page
+@model LibMan1._2.Pages.ListUserModel
+
+@{
+    ViewData["Title"] = "ListUser";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>ListUser</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Photo:
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TableUserInfo[0].UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TableUserInfo[0].Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TableUserInfo[0].Mail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TableUserInfo[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TableUserInfo[0].SurName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TableUserInfo[0].Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TableUserInfo[0].Photo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TableUserInfo[0].PhotoPath)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.TableUserInfo) {
+        <tr>
+            <th>
+                <img src="~/resimler/@item.PhotoPath" height="200" />
+            </th>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SurName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Photo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhotoPath)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

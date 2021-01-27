@@ -1,0 +1,26 @@
+﻿@page
+@model LibMan1._2.Pages.JSonBerkeModel
+
+@{
+    ViewData["Title"] = "JSonBerke";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+
+<hr />
+
+<form method="post" enctype="multipart/form-data" action="">
+     <input type="file" asp-for="Image" style="background-color: #110e17;color: #ffffff;width:90%;" />
+
+    <input type="submit" value="Create" class="btn btn-danger" />
+</form>
+
+
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

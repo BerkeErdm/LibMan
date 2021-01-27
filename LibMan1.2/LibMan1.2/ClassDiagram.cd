@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LibMan1._2.Pages.BookInfoModel" Collapsed="true">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAQAAAAAAAAAAIBAAAAQEAAAAAAA=</HashCode>
+      <FileName>Pages\BookInfo.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibMan1._2.Pages.CreateModel" Collapsed="true">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAABAAAAAAAAAAAAAAAIAAAAAQEAAAAAAA=</HashCode>
+      <FileName>Pages\Create.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibMan1._2.Pages.DeleteModel" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAABAAAAAEAAAAAAA=</HashCode>
+      <FileName>Pages\Delete.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibMan1._2.Pages.DetailsModel" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Details.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibMan1._2.Pages.EditModel" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQBAAgAAAAAAAAAAAAABAAAAAEAAAAAAA=</HashCode>
+      <FileName>Pages\Edit.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibMan1._2.Pages.IndexModel" Collapsed="true">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAEAAAAAABAAgAQQAAAAAAAAABAACAAAAAEAAAAA=</HashCode>
+      <FileName>Pages\Index.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibMan1._2.Pages.JSonModel" Collapsed="true">
+    <Position X="10" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACAAAAAQABAAgCBAAAAAAAAAAEBAAAACABCAQAAA=</HashCode>
+      <FileName>Pages\JSon.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibMan1._2.Pages.JSonBerkeModel" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Class Name="LibMan1._2.Pages.JSonBerkeModel.FileInputModel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Pages\JSonBerke.cshtml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAIBAAAAQEAAAAAAA=</HashCode>
+      <FileName>Pages\JSonBerke.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibMan1._2.Pages.ListBookModel" Collapsed="true">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\ListBook.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibMan1._2.Pages.ListUserModel" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\ListUser.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibMan1._2.Pages.SearchModel" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Search.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.AspNetCore.Mvc.RazorPages.PageModel" Collapsed="true">
+    <Position X="12.25" Y="1" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

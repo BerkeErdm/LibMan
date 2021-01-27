@@ -1,0 +1,23 @@
+﻿@page
+@model LibMan1._2.Pages.IndexModel
+@{
+    Layout = "~/Pages/Shared/_LayoutLogin.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+    <h3>Login Page</h3>
+    @Model.Msg
+    <form method="post" asp-page="login">
+       <br> Username <input type="text" name="username" />
+        <br />
+        <br >Password <input type="password" name="password" />
+        <br />
+        <input type="submit" value="Login" />
+    </form>
+</body>
+</html>

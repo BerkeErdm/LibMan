@@ -1,0 +1,26 @@
+﻿@page
+@model LibMan1._2.Pages.JSonModel
+@{
+    ViewData["Title"] = "JSon";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+ 
+</head>
+<body>
+
+    @Model.berke
+    <div>
+        <input type="submit" value="ImportData Json" class="btn btn-primary" />
+    </div>
+
+    <div>
+        <input type="submit" value="ExportData Json" class="btn btn-primary" />
+    </div>
+    
+    <a asp-page="Welcome" asp-page-handler="Logout">Exit</a>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿@page
+@model LibMan1._2.Pages.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>TableBookInfo</h4>
+    <hr />
+    <dl class="row">
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.BookName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.BookName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.AuthorName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.AuthorName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.PageNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.PageNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.Publisher)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.Publisher)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.BookSummary)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.BookSummary)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.Image)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.Image)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.Categories)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.Categories)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TableBookInfo.ReadingStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TableBookInfo.ReadingStatus)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.TableBookInfo.BookId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
